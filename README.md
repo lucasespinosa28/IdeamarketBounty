@@ -1,6 +1,6 @@
 # IdeamarketBounty
 
-this project has two contracts that allow you to implement a reward contract with a stopwatch and store their results
+this project has two contracts that allow you to implement a reward contract with a timer and store their results
 
 1- contract storage will be used to store every bounty created
 
