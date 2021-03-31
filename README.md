@@ -36,7 +36,7 @@ function symbol returns the symbol of the  erc20  token you are using as a rewar
 
 function decimals return the decimals of the erc20 token you are using as a reward
 
-how the password works
+# how the password works
 
 imagine the password is :
  "welcome version enlist meadow skirt leopard luggage finish hamster brain sure fortune" 
