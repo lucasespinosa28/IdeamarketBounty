@@ -1,8 +1,11 @@
 # IdeamarketBounty
+### demo video 
+
+https://youtu.be/yo9AsOUW-JQ 
 
 this project has two contracts that allow you to implement a reward contract with a timer and store their results
 
-1- contract storage will be used to store every bounty created
+## 1- contract storage will be used to store every bounty created
 
 storage contract as four functions
 
@@ -12,14 +15,14 @@ addVerified function connect your bounty contract and check if it has been verif
 
 function verifiedsList returns the list of the verified users using the addVerified 
 
-2- contract Bounty
+## 2- contract Bounty
 
 to deploy a bounty contract you will need 4 things
 
-1- the person's name will be rewarding  
-2- the maximum number of days to verify the identity to get the bounty
-3-an ERC20 token address to use as a reward 
-4- the hash of result of the password after using the keccak256, you will need to send this text/password to the person who wants to use the bounty to confirm his identity, send the text/password not the hash
+### 1- the person's name will be rewarding  
+### 2- the maximum number of days to verify the identity to get the bounty
+### 3-an ERC20 token address to use as a reward 
+### 4- the hash of result of the password after using the keccak256, you will need to send this text/password to the person who wants to use the bounty to confirm his identity, send the text/password not the hash
 
 function deposit, when your use this function you will send ERC20  tokens into contract this token are used as a reward if the contract was verified
 
